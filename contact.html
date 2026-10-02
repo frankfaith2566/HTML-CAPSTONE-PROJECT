@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Learning Hub - Contact</title>
+    <style>
+        body{
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact and Feedback</h1>
+        <nav>
+            <ul>
+                <li>
+            <a href="index.html">Home</a></li>
+            <li>
+            <a href="about.html">About</a></li>
+            <li>
+            <a href="contact.html">Contact</a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Feedback Form</h2>
+            <p>Use the form below to provide feedback about the HTML Learning Hub.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Learning Information</legend>
+                    <p>Which HTML topic do you like?</p>
+                    <input type="radio" id="forms" name="topic" value="forms">
+                    <label for="forms">Forms</label>
+                    <input type="radio" id="tables" name="topic" value="tables">
+                    <label for="tables">Tables</label>
+                    <input type="radio" id="links" name="topic" value="links">
+                    <label for="links">Links</label>
+                    <p>Which elements have you used?</p>
+                    <input type="checkbox" id="headings" name="elements" value="headings">
+                    <label for="headings">Headings</label>
+                    <input type="checkbox" id="lists" name="elements" value="lists">
+                    <label for="lists">Lists</label>
+                    <input type="checkbox" id="forms-element" name="elements" value="forms">
+                    <label for="forms-element">Forms</label>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
